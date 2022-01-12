@@ -5,11 +5,12 @@ Je n'ai pas réussi à supprimer les agents après leur mort dans le jeu. J'ai d
 2-Le système semble converger vers uniquement des lycanthropes en environ 2000 itérations. La présence ou l'absence d'apothicaire ne modifie pas ce résultat (qualitativement, l'apothicaire ne rencontre jamais de lycanthrope non transformé.). Les 2 chasseurs ont un trop faible impact pour contenir la contagion. En effet, ils sont contaminés par les loups-garous qu'ils abattent. L'augmentation du nombre d'apothicaires et de chasseurs réduit la vitesse de propagation voir a une éradication des loups garou (scénario avec 5 loups garou 10 apothicaires et 10 chasseurs).
 
 3-fonctions lambda non maitrisées. La courbe obtenue confirme bien l'observation précédente (la disparition de la population saine au profit des loups-garous)
+![standard configuration](https://user-images.githubusercontent.com/62742264/149177813-8b0b538b-69c5-4aec-981e-449932c583e1.png)
 
 4- Etude de l'impact du role de l'apothicaire (sans chasseur). On remarque que l'augmentation du ration d'apothicaire dans la population diminue marginalement la vitesse de contamination (les guérisons sont des événements rares)
-![1](/TP1/half cleric.png)
+![half cleric](https://user-images.githubusercontent.com/62742264/149177642-552fbcb3-77d8-4fac-a2fe-5ac50cd79b66.png)
 Etude du chasseur (pas d'apothicaire) : Les chasseurs seuls ne peuvent pas endiguer la propagation. En effet, un chasseur contaminant un loup-garou est automatiquement contaminé, ce qui empêche la restauration du taux de population saine.
-![2](/TP1/half hunter.png)
+![half hunter](https://user-images.githubusercontent.com/62742264/149177704-4310723b-1db1-4fec-b81d-7c5359ac91bf.png)
 
 5-La portée des interactions est cruciale. En effet des chasseurs ayant une meilleure portée pourraient abattre les loups-garous sans être contaminé et ainsi obtenir un meilleur contrôle la population. La probabilité de transformation du loup-garou est aussi à prendre en compte. En effet la probabilité qu'un apothicaire soigne un villageois serait augmentée si la transformation était moins probable
 
