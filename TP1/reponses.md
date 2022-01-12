@@ -7,7 +7,9 @@ Je n'ai pas réussi à supprimer les agents après leur mort dans le jeu. J'ai d
 3-fonctions lambda non maitrisées. La courbe obtenue confirme bien l'observation précédente (la disparition de la population saine au profit des loups-garous)
 
 4- Etude de l'impact du role de l'apothicaire (sans chasseur). On remarque que l'augmentation du ration d'apothicaire dans la population diminue marginalement la vitesse de contamination (les guérisons sont des événements rares)
+![1](/TP1/half cleric.png)
 Etude du chasseur (pas d'apothicaire) : Les chasseurs seuls ne peuvent pas endiguer la propagation. En effet, un chasseur contaminant un loup-garou est automatiquement contaminé, ce qui empêche la restauration du taux de population saine.
+![2](/TP1/half hunter.png)
 
 5-La portée des interactions est cruciale. En effet des chasseurs ayant une meilleure portée pourraient abattre les loups-garous sans être contaminé et ainsi obtenir un meilleur contrôle la population. La probabilité de transformation du loup-garou est aussi à prendre en compte. En effet la probabilité qu'un apothicaire soigne un villageois serait augmentée si la transformation était moins probable
 
